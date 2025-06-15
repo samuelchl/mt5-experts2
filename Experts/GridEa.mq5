@@ -17,7 +17,7 @@ int OnInit()
   {
    buy_grid = new GridManager(GRID_BUY, 0.01, 100, 1);
    buy_grid.SetGridMagicNumber(100);
-   buy_grid.SetGridMultiplier(1);
+   buy_grid.SetGridMultiplier(1.5);
    buy_grid.SetGridMaxDD(0.5);
    
    //sell_grid = new GridManager(GRID_SELL, 0.01, 100, 1);
